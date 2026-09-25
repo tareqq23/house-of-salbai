@@ -1,0 +1,46 @@
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment Files
+.env
+.env.backup
+.env.production
+.env.*
+!.env.example
+
+# Large Archives & Database Dumps
+*.rar
+*.zip
+*.7z
+*.tar.gz
+*.sql
+*.sqlite-journal
+
+# IDE & Editor files
+.phpactor.json
+.phpunit.result.cache
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+
+# Dependencies & Build Artefacts
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+
+# Local Execution Scripts & Export Folders
+*.bat
+/SIAP_UPLOAD_GITHUB/
+
